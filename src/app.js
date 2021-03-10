@@ -9,6 +9,6 @@ menuIcon.addEventListener('click', () => {
         menuIcon.classList.add('fa-bars')
     }
 
-    document.querySelector('.navbar__list').classList.toggle('active');
-
+    const list = document.querySelector('.navbar__list');
+    list.classList.toggle('active');
 });

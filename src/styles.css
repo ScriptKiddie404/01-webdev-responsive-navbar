@@ -69,6 +69,7 @@
     justify-content: center;
     text-align: center;
     width: 100%;
+    transition: visibility 1s ease-in-out;
   }
 
   .navbar__item {
